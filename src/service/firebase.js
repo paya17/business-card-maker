@@ -8,6 +8,9 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
+const firabaseApp = initializeApp(firebaseConfig);
+
+
+export default firabaseApp; //firabaseApp을 export 해주기!
 
 //쓰지 않는 코드는 삭제했음
